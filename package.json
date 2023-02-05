@@ -1,0 +1,29 @@
+{
+  "name": "node-ems",
+  "version": "1.0.0",
+  "description": "Learn node js by creating an employe management system",
+  
+  "private": true,
+  "repository": {
+    "type": "git"
+    
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-ejs-layouts": "^2.3.1",
+    "mongoose": "^5.0.0-rc2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
